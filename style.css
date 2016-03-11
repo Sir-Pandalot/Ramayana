@@ -7,12 +7,17 @@ body, html {
 nav {
 	position: fixed;
 	text-align: right;
-	top: 0;
-	margin: 0;
-	padding: 0;
+	margin: 2% 0 0 55% ;
+	padding: 0 2.5% 0 0;
 	font-family: 'Karla', sans-serif;
 	font-size: 25px;
+	background-color: rgba(0,33,0,0.4);
+	border-radius: 15px;
 
+}
+
+nav a {
+	color: #000;
 }
 
 header {
@@ -24,6 +29,9 @@ header {
 li {
 	display: inline;
 	list-style: none;
+	text-align: right;
+	margin: 20px;
+
 }
 
 a {
