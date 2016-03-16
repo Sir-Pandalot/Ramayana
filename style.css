@@ -3,6 +3,10 @@
 	font-family: "Karla", sans-serif;
 }
 
+section {
+	margin: 5% 20%;
+}
+
 body, html {
 	margin: 0;
 	padding: 0;
@@ -47,6 +51,17 @@ a:link {
 
 a:hover {
 	text-decoration: underline;
+}
+
+img {
+	float: right;
+	width: 300px;
+	margin: 0 3%;
+}
+
+p {
+	font-size: 18px;
+	line-height: 30px;
 }
 
 /* Reservation Form */
