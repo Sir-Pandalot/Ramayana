@@ -28,7 +28,7 @@ nav li {
 }
 
 nav li a {
-	color: white;
+	color: #FCFBD4;
 }
 
 header {
@@ -46,6 +46,10 @@ section img {
 	float: right;
 	width: 300px;
 	margin: 0 3%;
+}
+
+#logo {
+	opacity: 0.7;
 }
 
 p {
