@@ -45,40 +45,6 @@ header {
 	background-size: cover;
 }
 
-section {
-	margin: 5% 20%;
-}
-
-section img {
-	float: right;
-	width: 300px;
-	margin: 2% 3%;
-}
-
-footer {
-	bottom: 0;
-	width: 100%;
-	height: 40px;
-	background-color: rgba(145,18,18,0.6);
-	z-index: 9999;
-}
-
-footer p {
-	text-align: right;
-	font-size: 20px;
-	margin-right: 12%;
-}
-
-#maps {
-	background:rgba(145,18,18,0.6);
-	border-radius: 15px;
-}
-
-#logo {
-	opacity: 0.7;
-	display: none;
-}
-
 h2, form, footer {
 	color: #FCFBD4;
 }
@@ -96,20 +62,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-form {
-	font-size: 1.5em;
-}
-
-input {
-	font-size: 1em;
-}
-
-table {
-	color: #FCFBD4;
-	font-size: 18px;
-	width: 100%;
-}
-
 .social {
 	float: left;
 	position: fixed;
@@ -123,13 +75,11 @@ table {
 	width: 40px;
 }
 
-.home, .contact {
-	background-image:url("img/danauberatan.jpg");
+
+.home {
+	background-image:url("img/herbs_5.jpg");
 }
 
-.reservation {
-	background-image:url("img/reserved.jpg");
-}
 
 .header-image {
 	width: 50%;
@@ -144,31 +94,53 @@ table {
 	width: 75%;
 	min-width: 300px;
 }
-
-.reservation-form {
-	position: absolute;
-	top: 50%;
-	left: 10%;
-	transform: translateY(-50%);
-	padding: 2% 4%;
-	background-color: rgba(145,18,18,0.8);
-	border-radius: 15px;
-	color: white;
+.dish {
+	width:400px;
+	float:left;
+	margin:20px;
+	height:260px;
+	
 }
 
-.contact-box {
-	position: absolute;
-	top: 50%;
-	left: 33%;
-	transform: translateY(-50%);
-	padding: 2% 4%;
-	background-color: rgba(145,18,18,0.8);
-	border-radius: 15px;
+figure {
+	display:block;
+	width:350px;
+	height: 265px;
+	background-color: #f1f0ee;
+	margin-bottom: 60px;
+	padding: 12px;
+	text-align: left;
 }
 
 
-.reservation-form h2 {
-	margin: 0 0 1em 0;
-	font-size: 2.5em;
+figure img {
+	width:300px;
+	height: 200px;
+	border: 2px solid white;
+	margin:10px;
+}
+
+figcaption {
+padding-left:30px;
+font-size: 110%;
+
+}
+section {
 	text-align: center;
+	margin:90px;
+}
+
+footer {
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(145,18,18,0.6);
+	z-index: 9999;
+}
+
+footer p {
+	text-align: right;
+	font-size: 20px;
+	margin-right: 12%;
 }
